@@ -61,6 +61,7 @@ function init(){
 
 
     hamburger.addEventListener('click', () => {
+        console.log('test');
         tl.reversed() ? tl.play() : tl.reverse();
     })
 
